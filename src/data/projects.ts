@@ -17,7 +17,7 @@ export const projects: Project[] = [
     status: 'Em evolução',
     demoUrl: 'https://sua-empresa-store.vercel.app/', // TROCAR: link de demonstração, se disponível para compartilhar
     githubUrl: undefined, // TROCAR: link do repositório, se for público
-    imageUrl: 'public/catalogo-online.png', // TROCAR: caminho de um screenshot, ex: '/projetos/catalogo-online.png'
+    imageUrl: 'images/catalogo-online.png', // TROCAR: caminho de um screenshot, ex: '/projetos/catalogo-online.png'
   },
   // TROCAR: espaço reservado para projetos futuros vindos do GitHub.
   // Basta seguir a mesma estrutura de objeto acima.

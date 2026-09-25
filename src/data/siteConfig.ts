@@ -18,7 +18,7 @@ Nos últimos anos venho evoluindo também para o desenvolvimento de software, tr
 Prefiro resolver problemas de forma direta e acessível a vender soluções complexas demais para o que o cliente realmente precisa.`,
 
   // TROCAR: caminho de uma foto profissional, se disponível (ex: '/foto-breno.jpg')
-  photoUrl: 'public/foto-breno.jpg' as string | undefined,
+  photoUrl: 'images/foto-breno.jpg' as string | undefined,
 
   contactCtaHeadline: 'Precisa de suporte ou tem um projeto em mente?',
   contactCtaSubline: 'Fale comigo e vamos entender o que você precisa.',
