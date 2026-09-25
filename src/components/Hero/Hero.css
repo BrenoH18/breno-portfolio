@@ -1,0 +1,53 @@
+.hero {
+  position: relative;
+  padding-block: var(--space-7) var(--space-6);
+  overflow: hidden;
+  background: var(--color-paper);
+}
+
+.hero__grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 70% 20%, black, transparent);
+  mask-image: radial-gradient(ellipse 70% 60% at 70% 20%, black, transparent);
+  opacity: 0.6;
+}
+
+.hero__inner {
+  position: relative;
+  max-width: 760px;
+}
+
+.hero__headline {
+  margin-top: var(--space-3);
+  font-size: var(--step-4);
+  max-width: 18ch;
+}
+
+.hero__subline {
+  margin-top: var(--space-4);
+  font-size: var(--step-1);
+  color: var(--color-ink-soft);
+  max-width: 56ch;
+}
+
+.hero__actions {
+  margin-top: var(--space-5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-block: var(--space-6) var(--space-5);
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,48 @@
+/*
+  Tokens de design do site.
+  Alterar cores, fontes e espaçamentos aqui reflete em todo o projeto.
+*/
+:root {
+  /* Cores */
+  --color-ink: #14181d;          /* texto principal / fundo escuro */
+  --color-ink-soft: #4b5560;     /* texto secundário */
+  --color-paper: #f5f6f4;        /* fundo claro principal */
+  --color-paper-alt: #eceee9;    /* fundo claro alternativo (seções) */
+  --color-surface: #ffffff;      /* cards e superfícies elevadas */
+  --color-border: rgba(20, 24, 29, 0.12);
+
+  --color-signal: #1f7a6c;       /* acento primário (suporte/infra) */
+  --color-signal-strong: #16584e;
+  --color-ember: #b5541b;        /* acento secundário (dev/CTA principal) */
+  --color-ember-strong: #8f4315;
+
+  --color-ink-inverse: #f5f6f4;  /* texto sobre fundo escuro */
+  --color-ink-inverse-soft: rgba(245, 246, 244, 0.68);
+
+  /* Tipografia */
+  --font-display: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+
+  --step--1: clamp(0.83rem, 0.8rem + 0.15vw, 0.9rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.4vw, 1.4rem);
+  --step-2: clamp(1.5rem, 1.35rem + 0.7vw, 1.9rem);
+  --step-3: clamp(1.9rem, 1.6rem + 1.3vw, 2.6rem);
+  --step-4: clamp(2.4rem, 1.9rem + 2.2vw, 3.6rem);
+
+  /* Espaçamento */
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+
+  /* Layout */
+  --content-width: 1120px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  --focus-ring: 2px solid var(--color-signal);
+}

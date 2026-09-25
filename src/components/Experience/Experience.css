@@ -1,0 +1,63 @@
+.experience__timeline {
+  margin-top: var(--space-6);
+  display: grid;
+  gap: var(--space-5);
+}
+
+.experience__item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: var(--space-4);
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--color-border);
+}
+
+.experience__period {
+  font-size: var(--step--1);
+  color: var(--color-ink-soft);
+}
+
+.experience__role {
+  font-size: var(--step-1);
+}
+
+.experience__org {
+  margin-top: 0.25rem;
+  color: var(--color-signal-strong);
+  font-size: var(--step--1);
+  font-weight: 600;
+}
+
+.experience__desc {
+  margin-top: var(--space-2);
+  color: var(--color-ink-soft);
+}
+
+.experience__highlights {
+  margin-top: var(--space-2);
+  display: grid;
+  gap: 0.35rem;
+}
+
+.experience__highlights li {
+  font-size: var(--step--1);
+  padding-left: 1rem;
+  position: relative;
+  color: var(--color-ink-soft);
+}
+
+.experience__highlights li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  background: var(--color-signal);
+}
+
+@media (max-width: 620px) {
+  .experience__item {
+    grid-template-columns: 1fr;
+  }
+}
