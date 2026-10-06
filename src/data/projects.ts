@@ -15,7 +15,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Vite', 'TypeScript'],
     role: 'Desenvolvimento completo do sistema, do planejamento à entrega para o cliente.',
     status: 'Em evolução',
-    demoUrl: 'https://sua-empresa-store.vercel.app/', // TROCAR: link de demonstração, se disponível para compartilhar
+    demoUrl: 'aven-fitness.vercel.app/', // TROCAR: link de demonstração, se disponível para compartilhar
     githubUrl: undefined, // TROCAR: link do repositório, se for público
     imageUrl: 'images/catalogo-online.png', // TROCAR: caminho de um screenshot, ex: '/projetos/catalogo-online.png'
   },
