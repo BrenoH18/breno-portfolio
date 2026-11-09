@@ -26,7 +26,9 @@ export function Contact() {
 
         <ul className="contact__links">
           <li>
-            <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>
+            <a href={`mailto:${contactInfo.email}`}>
+              Email
+            </a>
           </li>
           <li>
             <a href={contactInfo.githubUrl} target="_blank" rel="noopener noreferrer">
